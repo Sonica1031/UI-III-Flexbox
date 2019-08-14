@@ -66,60 +66,13 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container{
-	width: 870px;
-	margin: auto;
+    width: 870px;
 }
-.firstLine{
-	display: flex;
-	Justify-content: center;
-	margin-top: 20px;
-}
-nav{
-	display: flex;
-	justify-content: space-around;
-	margin-top: 20px;
-	width: 600px;
-}
-
-nav li{
-	justify-content: space-around;
-}
-nav a{
-	text-decoration: none;
-}
-
-.logo-image{
-	display: flex;
-	justify-content: flex-end;
-}
-h1{
-	font-size: 70px;
-	align-self: center;
-}
-.secondLine{
-	display: flex;
-	justify-content: space-around;
-	margin: 20px;
-}
-}
-.mid{
-
-	display: flex;
-	justify-content: center;
-	
-}
-.thirdLine{
-	display: flex;
-	justify-content: space-around;
-	margin: 20px;
-}
-address{
-	display: flex;
-}
-button{
-	margin-left: 200px;
-}
-.Copy-write{
-	display: flex;
-	justify-content: flex-end;
+.rounded1{
+    border-radius: 10%;
+    color: gray;
+    border: 2px black solid;
+    height:100px;
+    width: 300px;
+    padding: 20px;
 }
